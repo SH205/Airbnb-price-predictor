@@ -1,21 +1,12 @@
-
-
-# ==========================================================
 # Imports
-# ==========================================================
-
 import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
 from datetime import date
 
-# Runs program with : streamlit run App_ai.py
-
-
 model = joblib.load("airbnb_price_predictor.pkl")
 model_features = joblib.load("model_features.pkl")
-
 
 # -------------------- Page Configuration --------------------
 
@@ -25,7 +16,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
 # -------------------- Custom CSS --------------------
 
 st.markdown("""
@@ -88,15 +78,12 @@ def load_features():
 
 @st.cache_data
 def load_dataset():
-
     return pd.read_csv("cleaned_dataset.csv")
-
 
 # Load everything
 model = load_model()
 model_features = load_features()
 df = load_dataset()
-
 
 # -------------------- Helper Functions --------------------
 
