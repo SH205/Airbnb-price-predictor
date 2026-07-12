@@ -1,5 +1,5 @@
 
-# 🏡 Airbnb Price Predictor
+# 🏙️ Airbnb Price Predictor — New York City
 
 ## Machine Learning Web Application
 
@@ -10,9 +10,11 @@
 
 ## 📌 Project Overview
 
-Builds a machine learning application that predicts Airbnb nightly prices based on listing characteristics, location, amenities, review scores, and booking information.
+This project develops a machine learning application that predicts Airbnb nightly prices for listings in New York City.
 
-The goal was to predict Airbnb nightly prices using available listing features and deploy the final model as an interactive web application using Streamlit.
+The model uses property characteristics, location information, amenities, review scores, and booking details to estimate the expected nightly price of an Airbnb listing.
+
+The goal is to understand the factors influencing NYC Airbnb prices and create an interactive prediction tool using Streamlit.
 
 ---
 
