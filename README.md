@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+📌 Project Overview
 
 This project develops a machine learning application that predicts Airbnb nightly prices for listings in New York City.
 
