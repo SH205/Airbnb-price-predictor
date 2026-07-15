@@ -123,8 +123,6 @@ and receive an estimated Airbnb nightly price.
 
 **Programming**
 - Python
-
-**Data**
 - Pandas
 - NumPy
 - Scikit-learn
